@@ -1,6 +1,6 @@
 # Jail templates with sane defaults for Bastille
 add short intro for Bastille<br>
-add short intro to templates<br>
+add short intro to templates and sane defaults<br>
 add short instructions for bootstrapping and applying templates
 
 ## Meta-templates
@@ -11,31 +11,31 @@ The `meta` meta-template is special: it consists of *all* available templates. T
 | Meta template | Repository | Description |
 | ------------- | ---------- | ----------- |
 | meta | https://github.com/jail-templates/meta | Bootstrap all available templates.<br>- https://github.com/jail-templates/basics<br>- https://github.com/jail-templates/vnstat<br>- https://github.com/jail-templates/apache-http<br>- https://github.com/jail-templates/apache-https<br>- https://github.com/jail-templates/php<br>- https://github.com/jail-templates/php-8.0<br>- https://github.com/jail-templates/php-8.1<br>- https://github.com/jail-templates/php-8.2<br>- https://github.com/jail-templates/php-8.3<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/mariadb-10.5<br>- https://github.com/jail-templates/mariadb-10.6<br>- https://github.com/jail-templates/mariadb-10.11<br>- https://github.com/jail-templates/famp-http<br>- https://github.com/jail-templates/famp-https |
-| famp-http | https://github.com/jail-templates/famp-http |  Install and configure a full FAMP server with some sane defaults.<br>- https://github.com/jail-templates/apache-http<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/php |
-| famp-https | https://github.com/jail-templates/famp-https |  Install and configure a full FAMP server with some sane defaults.<br>- https://github.com/jail-templates/apache-https<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/php |
+| famp-http | https://github.com/jail-templates/famp-http |  Install and configure a full FAMP server.<br>- https://github.com/jail-templates/apache-http<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/php |
+| famp-https | https://github.com/jail-templates/famp-https |  Install and configure a full FAMP server.<br>- https://github.com/jail-templates/apache-https<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/php |
 
 ## Apache templates
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
-| apache-http | https://github.com/jail-templates/apache-http | Install and configure the Apache HTTP server (http-only) with some sane defaults. |
-| apache-https | https://github.com/jail-templates/apache-https | Install and configure the Apache HTTP server (http/https) with some sane defaults. |
+| apache-http | https://github.com/jail-templates/apache-http | Install and configure the Apache HTTP server (http-only). |
+| apache-https | https://github.com/jail-templates/apache-https | Install and configure the Apache HTTP server (http/https). |
 
 ## PHP templates
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
-| php | https://github.com/jail-templates/php | Install and configure the latest stable PHP with some sane defaults. |
-| php-8.0 | https://github.com/jail-templates/php | Install and configure PHP 8.0 with some sane defaults. |
-| php-8.1 | https://github.com/jail-templates/php | Install and configure PHP 8.1 with some sane defaults. |
-| php-8.2 | https://github.com/jail-templates/php | Install and configure PHP 8.2 with some sane defaults. |
-| php-8.3 | https://github.com/jail-templates/php | Install and configure PHP 8.3 with some sane defaults. |
+| php | https://github.com/jail-templates/php | Install and configure the latest stable PHP. |
+| php-8.0 | https://github.com/jail-templates/php | Install and configure PHP 8.0. |
+| php-8.1 | https://github.com/jail-templates/php | Install and configure PHP 8.1. |
+| php-8.2 | https://github.com/jail-templates/php | Install and configure PHP 8.2. |
+| php-8.3 | https://github.com/jail-templates/php | Install and configure PHP 8.3. |
 
 ## MySQL templates
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
-| mariadb | https://github.com/jail-templates/mariadb | Install and configure the latest stable MariaDB Server with some sane defaults. |
-| mariadb-10.5 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.5 with some sane defaults. |
-| mariadb-10.6 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.6 with some sane defaults. |
-| mariadb-10.11 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.11 with some sane defaults. |
+| mariadb | https://github.com/jail-templates/mariadb | Install and configure the latest stable MariaDB Server. |
+| mariadb-10.5 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.5. |
+| mariadb-10.6 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.6. |
+| mariadb-10.11 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.11. |
 
 ## Other templates
 | Template | Repository | Description |
