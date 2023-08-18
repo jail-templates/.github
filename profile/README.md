@@ -30,8 +30,8 @@ The `meta` meta-template is special: it consists of *all* available templates. T
 ### Apache templates
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
-| apache-http | https://github.com/jail-templates/apache-http | Install and configure the Apache HTTP server (http-only). |
-| apache-https | https://github.com/jail-templates/apache-https | Install and configure the Apache HTTP server (http/https). |
+| apache-http | https://github.com/jail-templates/apache-http | Install and configure the Apache HTTP Server (HTTP-only). |
+| apache-https | https://github.com/jail-templates/apache-https | Install and configure the Apache HTTP Server (HTTP/HTTPS). |
 
 ### PHP templates
 | Template | Repository | Description |

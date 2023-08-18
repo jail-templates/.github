@@ -1,2 +1,2 @@
 # .github
-Onofficial templates for BastilleBSD based jails
+Jail templates for Bastille.
