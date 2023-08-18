@@ -37,18 +37,18 @@ The `meta` meta-template is special: it consists of *all* available templates. T
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
 | php | https://github.com/jail-templates/php | Install and configure the latest stable PHP. |
-| php-8.0 | https://github.com/jail-templates/php | Install and configure PHP 8.0. |
-| php-8.1 | https://github.com/jail-templates/php | Install and configure PHP 8.1. |
-| php-8.2 | https://github.com/jail-templates/php | Install and configure PHP 8.2. |
-| php-8.3 | https://github.com/jail-templates/php | Install and configure PHP 8.3. |
+| php-8.0 | https://github.com/jail-templates/php-8.0 | Install and configure PHP 8.0. |
+| php-8.1 | https://github.com/jail-templates/php-8.1 | Install and configure PHP 8.1. |
+| php-8.2 | https://github.com/jail-templates/php-8.2 | Install and configure PHP 8.2. |
+| php-8.3 | https://github.com/jail-templates/php-8.3 | Install and configure PHP 8.3. |
 
 ### MySQL templates
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
 | mariadb | https://github.com/jail-templates/mariadb | Install and configure the latest stable MariaDB Server. |
-| mariadb-10.5 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.5. |
-| mariadb-10.6 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.6. |
-| mariadb-10.11 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.11. |
+| mariadb-10.5 | https://github.com/jail-templates/mariadb-10.5 | Install and configure MariaDB Server 10.5. |
+| mariadb-10.6 | https://github.com/jail-templates/mariadb-10.6 | Install and configure MariaDB Server 10.6. |
+| mariadb-10.11 | https://github.com/jail-templates/mariadb-10.11 | Install and configure MariaDB Server 10.11. |
 
 ### Other templates
 | Template | Repository | Description |
