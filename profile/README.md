@@ -1,9 +1,22 @@
-# Jail templates with sane defaults for Bastille
-add short intro for Bastille<br>
-add short intro to templates and sane defaults<br>
-add short instructions for bootstrapping and applying templates
+# Jail templates for Bastille
+FreeBSD jails make OS-level virtualization possible by creating multiple user-space instances that can be isolated from the rest of the operating system. Jails add a lot of flexibility and enhance security without adding much overhead.
 
-## Meta-templates
+[Bastille](https://bastillebsd.org/) is a great open-source manager for deploying and managing jails. We love it because it's efficient and fast, has a great featureset and is easily extendable because of its low complexity design. One of those great features is support for [templates](https://bastille.readthedocs.io/en/latest/chapters/template.html) and that's where we come in to play.
+
+Templates are flexible rules that can be applied to jails, for example to install and configure software, copy data and execute commands. We created templates for the packages we use ourselves and thought it would be nice to share them. What sets these templates apart from the templates offered by Bastille is a sane default configuration that follows security best practices. Template details are listed in each template repository's README.
+
+## Getting started
+A template needs to be bootstrapped by Bastille before it can be used. Bootstrap a template by running:
+```
+bastille bootstrap https://github.com/jail-templates/$TEMPLATE
+```
+After bootstrapping the template can be applied by running:
+```
+bastille template $JAIL jail-templates/$TEMPLATE
+```
+
+## Templates
+### Meta-templates
 Meta-templates do not contain any template logic by themselves, but consist of two or more templates for ease of use. For example, instead of applying the `apache-https`, `mariadb` and `php` templates in sequence, you could just apply the `famp-https` meta-template instead.
 
 The `meta` meta-template is special: it consists of *all* available templates. This is helpful for bootstrapping all available templates at once, but shouldn't be applied to containers.
@@ -14,13 +27,13 @@ The `meta` meta-template is special: it consists of *all* available templates. T
 | famp-http | https://github.com/jail-templates/famp-http |  Install and configure a full FAMP server.<br>- https://github.com/jail-templates/apache-http<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/php |
 | famp-https | https://github.com/jail-templates/famp-https |  Install and configure a full FAMP server.<br>- https://github.com/jail-templates/apache-https<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/php |
 
-## Apache templates
+### Apache templates
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
 | apache-http | https://github.com/jail-templates/apache-http | Install and configure the Apache HTTP server (http-only). |
 | apache-https | https://github.com/jail-templates/apache-https | Install and configure the Apache HTTP server (http/https). |
 
-## PHP templates
+### PHP templates
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
 | php | https://github.com/jail-templates/php | Install and configure the latest stable PHP. |
@@ -29,7 +42,7 @@ The `meta` meta-template is special: it consists of *all* available templates. T
 | php-8.2 | https://github.com/jail-templates/php | Install and configure PHP 8.2. |
 | php-8.3 | https://github.com/jail-templates/php | Install and configure PHP 8.3. |
 
-## MySQL templates
+### MySQL templates
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
 | mariadb | https://github.com/jail-templates/mariadb | Install and configure the latest stable MariaDB Server. |
@@ -37,7 +50,7 @@ The `meta` meta-template is special: it consists of *all* available templates. T
 | mariadb-10.6 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.6. |
 | mariadb-10.11 | https://github.com/jail-templates/mariadb | Install and configure MariaDB Server 10.11. |
 
-## Other templates
+### Other templates
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
 | basics | https://github.com/jail-templates/basics | Install some basic apps and supress the MOTD. |
