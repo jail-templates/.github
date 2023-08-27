@@ -23,7 +23,7 @@ The `meta` meta-template is special: it consists of *all* available templates. T
 
 | Meta template | Repository | Description |
 | ------------- | ---------- | ----------- |
-| all | https://github.com/jail-templates/all | Bootstrap all available templates.<br>- https://github.com/jail-templates/basics<br>- https://github.com/jail-templates/vnstat<br>- https://github.com/jail-templates/apache-http<br>- https://github.com/jail-templates/apache-https<br>- https://github.com/jail-templates/php<br>- https://github.com/jail-templates/php-8.0<br>- https://github.com/jail-templates/php-8.1<br>- https://github.com/jail-templates/php-8.2<br>- https://github.com/jail-templates/php-8.3<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/mariadb-10.5<br>- https://github.com/jail-templates/mariadb-10.6<br>- https://github.com/jail-templates/mariadb-10.11<br>- https://github.com/jail-templates/famp-http<br>- https://github.com/jail-templates/famp-https<br>- https://github.com/jail-templates/wordpress<br>- https://github.com/jail-templates/wordpress-multisite<br>- https://github.com/jail-templates/nextcloud |
+| all | https://github.com/jail-templates/all | Bootstrap all available templates.<br>- https://github.com/jail-templates/basics<br>- https://github.com/jail-templates/vnstat<br>- https://github.com/jail-templates/apache-http<br>- https://github.com/jail-templates/apache-https<br>- https://github.com/jail-templates/php<br>- https://github.com/jail-templates/php-8.0<br>- https://github.com/jail-templates/php-8.1<br>- https://github.com/jail-templates/php-8.2<br>- https://github.com/jail-templates/php-8.3<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/mariadb-10.5<br>- https://github.com/jail-templates/mariadb-10.6<br>- https://github.com/jail-templates/mariadb-10.11<br>- https://github.com/jail-templates/famp-http<br>- https://github.com/jail-templates/famp-https<br>- https://github.com/jail-templates/wordpress<br>- https://github.com/jail-templates/nextcloud |
 | famp-http | https://github.com/jail-templates/famp-http |  Install and configure a full FAMP server.<br>- https://github.com/jail-templates/apache-http<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/php |
 | famp-https | https://github.com/jail-templates/famp-https |  Install and configure a full FAMP server.<br>- https://github.com/jail-templates/apache-https<br>- https://github.com/jail-templates/mariadb<br>- https://github.com/jail-templates/php |
 
@@ -54,7 +54,6 @@ The `meta` meta-template is special: it consists of *all* available templates. T
 | Template | Repository | Description |
 | -------- | ---------- | ----------- |
 | wordpress | https://github.com/jail-templates/wordpress | Install, configure and harden WordPress. |
-| wordpress-multisite | https://github.com/jail-templates/wordpress-multisite | Install, configure and harden WordPress Multisite. |
 | Nextcloud | https://github.com/jail-templates/nextcloud | Install, configure and harden Nextcloud. |
 
 ### Other templates
